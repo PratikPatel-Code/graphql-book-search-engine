@@ -44,9 +44,9 @@ const SignupForm = () => {
       });
 
       // if this doesn't work try catch(err) {}
-      if (!data) {
-        throw new Error("something went wrong!");
-      }
+      // if (!data) {
+      // throw new Error("something went wrong!");
+      //}
 
       //const { token, user } = await response.json();
       //console.log(user);
